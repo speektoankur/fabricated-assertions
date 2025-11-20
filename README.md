@@ -35,6 +35,11 @@ fabricated-assertions/
 └── README.md                    # This file
 ```
 
+## CI Run on Each Push to Code 
+
+### Additional Capablity possible to enable Run On CRON Jobs for Regresssion and On Demand with Feature Flags.
+<img width="1460" height="711" alt="Screenshot 2025-11-21 at 1 01 33 AM" src="https://github.com/user-attachments/assets/85d97dab-739c-4f8f-99ee-2c7a32ac7c7f" />
+
 ## 🏗️ Architecture Overview
 
 ### Page Object Model (POM)

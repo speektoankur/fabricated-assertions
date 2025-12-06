@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:shard1": "npx playwright test --shard=1/2",
+    "test:shard2": "npx playwright test --shard=2/2",
+    "test:shards": "npm run test:shard1 & npm run test:shard2",
+    "merge:reports": "npx playwright merge-reports --reporter html ./blob-report",
+    "test:full": "npm run test:shards && npm run merge:reports"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
